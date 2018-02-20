@@ -5,7 +5,13 @@ class Dog
    @name=name
    @breed=breed
  end
- attr_accessor :name,:breed
-
+ attr_accessor :breed
+def name 
+  @name 
+end 
+def name=(name)
+  @name=name
+end
+ 
 end
  
