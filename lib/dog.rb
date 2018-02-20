@@ -7,11 +7,10 @@ class Dog
  end
  attr_accessor :breed
 def name 
-  @name 
-end 
+  @name
+end
 def name=(name)
   @name=name
 end
- 
+
 end
- 
